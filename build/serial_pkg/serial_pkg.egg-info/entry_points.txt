@@ -1,0 +1,3 @@
+[console_scripts]
+serial_get_node = serial_pkg.serial_get_node:main
+serial_send_node = serial_pkg.serial_send_node:main

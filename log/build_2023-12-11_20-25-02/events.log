@@ -1,0 +1,62 @@
+[0.000000] (-) TimerEvent: {}
+[0.000711] (serial_pkg) JobQueued: {'identifier': 'serial_pkg', 'dependencies': OrderedDict()}
+[0.000950] (serial_pkg) JobStarted: {'identifier': 'serial_pkg'}
+[0.099185] (-) TimerEvent: {}
+[0.199474] (-) TimerEvent: {}
+[0.299852] (-) TimerEvent: {}
+[0.400169] (-) TimerEvent: {}
+[0.500489] (-) TimerEvent: {}
+[0.600748] (-) TimerEvent: {}
+[0.701008] (-) TimerEvent: {}
+[0.801301] (-) TimerEvent: {}
+[0.901602] (-) TimerEvent: {}
+[1.001910] (-) TimerEvent: {}
+[1.102174] (-) TimerEvent: {}
+[1.202461] (-) TimerEvent: {}
+[1.302754] (-) TimerEvent: {}
+[1.403096] (-) TimerEvent: {}
+[1.441154] (serial_pkg) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/serial_pkg', 'build', '--build-base', '/home/altair/Documents/ROS2_Serial/build/serial_pkg/build', 'install', '--record', '/home/altair/Documents/ROS2_Serial/build/serial_pkg/install.log', '--single-version-externally-managed'], 'cwd': '/home/altair/Documents/ROS2_Serial/src/serial_pkg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'ja:en', 'USER': 'altair', 'LC_TIME': 'ja_JP.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/altair/install/raspimouse_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/altair', 'OLDPWD': '/home/altair', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ja_JP.UTF-8', 'SYSTEMD_EXEC_PID': '11010', 'IM_CONFIG_CHECK_ENV': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/altair/Documents/ROS2_Serial/install:/home/altair/install:/home/altair/build/rplidar_ros2/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'altair', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'altair', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/altair/.local/bin:/home/altair/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/altair-ThinkPad-L380:@/tmp/.ICE-unix/10987,unix/altair-ThinkPad-L380:/tmp/.ICE-unix/10987', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ja_JP.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/ade30cac_ba95_4cf8_aa15_0b9c145e6434', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'ja_JP.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'ja_JP.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.VNZ0F2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.105', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/altair/Documents/ROS2_Serial/install/serial_pkg:/home/altair/install/raspimouse_navigation2:/home/altair/install/raspimouse_msgs:/home/altair/install/raspimouse_description:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ja_JP.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ja_JP.UTF-8', 'LC_IDENTIFICATION': 'ja_JP.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/altair/Documents/ROS2_Serial/build/serial_pkg', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/altair/Documents/ROS2_Serial/build/serial_pkg/prefix_override:/home/altair/Documents/ROS2_Serial/install/serial_pkg/lib/python3.10/site-packages:/home/altair/Documents/ROS2_Serial/install/serial_pkg/lib/python3.10/site-packages:/home/altair/install/raspimouse_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ja_JP.UTF-8', 'LC_PAPER': 'ja_JP.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/altair/install/raspimouse_navigation2:/home/altair/install/raspimouse_msgs:/home/altair/install/raspimouse_description'}, 'shell': False}
+[1.503216] (-) TimerEvent: {}
+[1.603514] (-) TimerEvent: {}
+[1.703823] (-) TimerEvent: {}
+[1.722395] (serial_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[1.745287] (serial_pkg) StdoutLine: {'line': b'writing ../../build/serial_pkg/serial_pkg.egg-info/PKG-INFO\n'}
+[1.745567] (serial_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/serial_pkg/serial_pkg.egg-info/dependency_links.txt\n'}
+[1.745914] (serial_pkg) StdoutLine: {'line': b'writing entry points to ../../build/serial_pkg/serial_pkg.egg-info/entry_points.txt\n'}
+[1.746190] (serial_pkg) StdoutLine: {'line': b'writing requirements to ../../build/serial_pkg/serial_pkg.egg-info/requires.txt\n'}
+[1.746483] (serial_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/serial_pkg/serial_pkg.egg-info/top_level.txt\n'}
+[1.793113] (serial_pkg) StdoutLine: {'line': b"reading manifest file '../../build/serial_pkg/serial_pkg.egg-info/SOURCES.txt'\n"}
+[1.794139] (serial_pkg) StdoutLine: {'line': b"writing manifest file '../../build/serial_pkg/serial_pkg.egg-info/SOURCES.txt'\n"}
+[1.794375] (serial_pkg) StdoutLine: {'line': b'running build\n'}
+[1.794517] (serial_pkg) StdoutLine: {'line': b'running build_py\n'}
+[1.794958] (serial_pkg) StdoutLine: {'line': b'running install\n'}
+[1.795204] (serial_pkg) StderrLine: {'line': b'/home/altair/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.\n'}
+[1.795358] (serial_pkg) StderrLine: {'line': b'!!\n'}
+[1.795482] (serial_pkg) StderrLine: {'line': b'\n'}
+[1.795612] (serial_pkg) StderrLine: {'line': b'        ********************************************************************************\n'}
+[1.795718] (serial_pkg) StderrLine: {'line': b'        Please avoid running ``setup.py`` directly.\n'}
+[1.795842] (serial_pkg) StderrLine: {'line': b'        Instead, use pypa/build, pypa/installer, pypa/build or\n'}
+[1.795975] (serial_pkg) StderrLine: {'line': b'        other standards-based tools.\n'}
+[1.796093] (serial_pkg) StderrLine: {'line': b'\n'}
+[1.796221] (serial_pkg) StderrLine: {'line': b'        See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.\n'}
+[1.796347] (serial_pkg) StderrLine: {'line': b'        ********************************************************************************\n'}
+[1.796510] (serial_pkg) StderrLine: {'line': b'\n'}
+[1.796649] (serial_pkg) StderrLine: {'line': b'!!\n'}
+[1.796765] (serial_pkg) StderrLine: {'line': b'  self.initialize_options()\n'}
+[1.801867] (serial_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[1.803903] (-) TimerEvent: {}
+[1.825433] (serial_pkg) StdoutLine: {'line': b'running install_data\n'}
+[1.848269] (serial_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.872069] (serial_pkg) StdoutLine: {'line': b"removing '/home/altair/Documents/ROS2_Serial/install/serial_pkg/lib/python3.10/site-packages/serial_pkg-1.0.0-py3.10.egg-info' (and everything under it)\n"}
+[1.872544] (serial_pkg) StdoutLine: {'line': b'Copying ../../build/serial_pkg/serial_pkg.egg-info to /home/altair/Documents/ROS2_Serial/install/serial_pkg/lib/python3.10/site-packages/serial_pkg-1.0.0-py3.10.egg-info\n'}
+[1.873521] (serial_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[1.904001] (-) TimerEvent: {}
+[2.004365] (-) TimerEvent: {}
+[2.104882] (-) TimerEvent: {}
+[2.115045] (serial_pkg) StdoutLine: {'line': b'Installing serial_get_node script to /home/altair/Documents/ROS2_Serial/install/serial_pkg/lib/serial_pkg\n'}
+[2.115348] (serial_pkg) StdoutLine: {'line': b'Installing serial_send_node script to /home/altair/Documents/ROS2_Serial/install/serial_pkg/lib/serial_pkg\n'}
+[2.115752] (serial_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/altair/Documents/ROS2_Serial/build/serial_pkg/install.log'\n"}
+[2.152277] (serial_pkg) CommandEnded: {'returncode': 0}
+[2.205017] (-) TimerEvent: {}
+[2.232931] (serial_pkg) JobEnded: {'identifier': 'serial_pkg', 'rc': 0}
+[2.233959] (-) EventReactorShutdown: {}

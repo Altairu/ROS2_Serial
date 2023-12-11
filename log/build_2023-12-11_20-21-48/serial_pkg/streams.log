@@ -1,0 +1,54 @@
+[1.450s] Invoking command in '/home/altair/Documents/ROS2_Serial/src/serial_pkg': PYTHONPATH=/home/altair/Documents/ROS2_Serial/build/serial_pkg/prefix_override:/home/altair/Documents/ROS2_Serial/install/serial_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/serial_pkg build --build-base /home/altair/Documents/ROS2_Serial/build/serial_pkg/build install --record /home/altair/Documents/ROS2_Serial/build/serial_pkg/install.log --single-version-externally-managed
+[1.733s] running egg_info
+[1.733s] creating ../../build/serial_pkg/serial_pkg.egg-info
+[1.756s] writing ../../build/serial_pkg/serial_pkg.egg-info/PKG-INFO
+[1.756s] writing dependency_links to ../../build/serial_pkg/serial_pkg.egg-info/dependency_links.txt
+[1.757s] writing entry points to ../../build/serial_pkg/serial_pkg.egg-info/entry_points.txt
+[1.757s] writing requirements to ../../build/serial_pkg/serial_pkg.egg-info/requires.txt
+[1.757s] writing top-level names to ../../build/serial_pkg/serial_pkg.egg-info/top_level.txt
+[1.757s] writing manifest file '../../build/serial_pkg/serial_pkg.egg-info/SOURCES.txt'
+[1.803s] reading manifest file '../../build/serial_pkg/serial_pkg.egg-info/SOURCES.txt'
+[1.804s] writing manifest file '../../build/serial_pkg/serial_pkg.egg-info/SOURCES.txt'
+[1.804s] running build
+[1.804s] running build_py
+[1.804s] creating /home/altair/Documents/ROS2_Serial/build/serial_pkg/build
+[1.805s] creating /home/altair/Documents/ROS2_Serial/build/serial_pkg/build/lib
+[1.805s] creating /home/altair/Documents/ROS2_Serial/build/serial_pkg/build/lib/serial_pkg
+[1.805s] copying serial_pkg/__init__.py -> /home/altair/Documents/ROS2_Serial/build/serial_pkg/build/lib/serial_pkg
+[1.805s] copying serial_pkg/serial_get_node.py -> /home/altair/Documents/ROS2_Serial/build/serial_pkg/build/lib/serial_pkg
+[1.805s] copying serial_pkg/serial_send_node.py -> /home/altair/Documents/ROS2_Serial/build/serial_pkg/build/lib/serial_pkg
+[1.805s] running install
+[1.809s] /home/altair/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[1.809s] !!
+[1.809s] 
+[1.809s]         ********************************************************************************
+[1.809s]         Please avoid running ``setup.py`` directly.
+[1.809s]         Instead, use pypa/build, pypa/installer, pypa/build or
+[1.810s]         other standards-based tools.
+[1.810s] 
+[1.810s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[1.810s]         ********************************************************************************
+[1.810s] 
+[1.810s] !!
+[1.810s]   self.initialize_options()
+[1.816s] running install_lib
+[1.840s] creating /home/altair/Documents/ROS2_Serial/install/serial_pkg/lib/python3.10/site-packages/serial_pkg
+[1.840s] copying /home/altair/Documents/ROS2_Serial/build/serial_pkg/build/lib/serial_pkg/__init__.py -> /home/altair/Documents/ROS2_Serial/install/serial_pkg/lib/python3.10/site-packages/serial_pkg
+[1.840s] copying /home/altair/Documents/ROS2_Serial/build/serial_pkg/build/lib/serial_pkg/serial_get_node.py -> /home/altair/Documents/ROS2_Serial/install/serial_pkg/lib/python3.10/site-packages/serial_pkg
+[1.841s] copying /home/altair/Documents/ROS2_Serial/build/serial_pkg/build/lib/serial_pkg/serial_send_node.py -> /home/altair/Documents/ROS2_Serial/install/serial_pkg/lib/python3.10/site-packages/serial_pkg
+[1.841s] byte-compiling /home/altair/Documents/ROS2_Serial/install/serial_pkg/lib/python3.10/site-packages/serial_pkg/__init__.py to __init__.cpython-310.pyc
+[1.841s] byte-compiling /home/altair/Documents/ROS2_Serial/install/serial_pkg/lib/python3.10/site-packages/serial_pkg/serial_get_node.py to serial_get_node.cpython-310.pyc
+[1.842s] byte-compiling /home/altair/Documents/ROS2_Serial/install/serial_pkg/lib/python3.10/site-packages/serial_pkg/serial_send_node.py to serial_send_node.cpython-310.pyc
+[1.842s] running install_data
+[1.865s] creating /home/altair/Documents/ROS2_Serial/install/serial_pkg/share/ament_index
+[1.865s] creating /home/altair/Documents/ROS2_Serial/install/serial_pkg/share/ament_index/resource_index
+[1.865s] creating /home/altair/Documents/ROS2_Serial/install/serial_pkg/share/ament_index/resource_index/packages
+[1.865s] copying resource/serial_pkg -> /home/altair/Documents/ROS2_Serial/install/serial_pkg/share/ament_index/resource_index/packages
+[1.866s] copying package.xml -> /home/altair/Documents/ROS2_Serial/install/serial_pkg/share/serial_pkg
+[1.866s] running install_egg_info
+[1.889s] Copying ../../build/serial_pkg/serial_pkg.egg-info to /home/altair/Documents/ROS2_Serial/install/serial_pkg/lib/python3.10/site-packages/serial_pkg-1.0.0-py3.10.egg-info
+[1.890s] running install_scripts
+[2.119s] Installing serial_get_node script to /home/altair/Documents/ROS2_Serial/install/serial_pkg/lib/serial_pkg
+[2.119s] Installing serial_send_node script to /home/altair/Documents/ROS2_Serial/install/serial_pkg/lib/serial_pkg
+[2.120s] writing list of installed files to '/home/altair/Documents/ROS2_Serial/build/serial_pkg/install.log'
+[2.152s] Invoked command in '/home/altair/Documents/ROS2_Serial/src/serial_pkg' returned '0': PYTHONPATH=/home/altair/Documents/ROS2_Serial/build/serial_pkg/prefix_override:/home/altair/Documents/ROS2_Serial/install/serial_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/serial_pkg build --build-base /home/altair/Documents/ROS2_Serial/build/serial_pkg/build install --record /home/altair/Documents/ROS2_Serial/build/serial_pkg/install.log --single-version-externally-managed
